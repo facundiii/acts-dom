@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 21</title>
+</head>
+<body>
+    <form>
+        <label for="campoTexto">Campo de Texto:</label>
+        <input type="text" id="campoTexto" onblur="verificarCampo(this)">
+    </form>
+
+    <script>
+        function verificarCampo(input) {
+            const valor = input.value.trim(); 
+            if (valor === "") {
+                alert("El campo de texto está vacío.");
+            }
+        }
+    </script>
+</body>
+</html>

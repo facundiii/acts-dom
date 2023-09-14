@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 16   </title>
+</head>
+<body>
+    <table id="miTabla">
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+        </tr>
+    </table>
+
+    <script>
+        const celdas = document.getElementById('miTabla').getElementsByTagName('td');
+        for (let i = 0; i < celdas.length; i++) {
+            celdas[i].addEventListener('click', function() {
+                alert('Haz hecho clic en la celda ' + (i + 1));
+            });
+        }
+    </script>
+</body>
+</html>

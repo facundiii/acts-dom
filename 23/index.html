@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 23</title>
+</head>
+<body>
+    <textarea id="miTextarea" onkeypress="mostrarTecla(event)"></textarea>
+
+    <script>
+        function mostrarTecla(event) {
+            const codigoTecla = event.keyCode || event.which;
+            const caracter = String.fromCharCode(codigoTecla);
+            alert(`Tecla presionada: ${caracter}`);
+        }
+    </script>
+</body>
+</html>

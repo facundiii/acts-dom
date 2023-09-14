@@ -1,0 +1,15 @@
+#listaPaises {
+    list-style-type: disc;
+}
+
+#listaPaises.estilo1 {
+    list-style-type: circle;
+}
+
+#listaPaises.estilo2 {
+    list-style-type: square;
+}
+
+#listaPaises.estilo3 {
+    list-style-type: none;
+}

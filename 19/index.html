@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACT 19</title>
+</head>
+<body>
+    <h1 id="miTitulo" onmousemove="mostrarCoordenadas(event)">Título</h1>
+
+    <script>
+        function mostrarCoordenadas(event) {
+            const titulo = document.getElementById('miTitulo');
+            const coordenadas = `X: ${event.clientX}, Y: ${event.clientY}`;
+            titulo.textContent = coordenadas;
+        }
+    </script>
+</body>
+</html>

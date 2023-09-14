@@ -1,0 +1,21 @@
+/* Estilos iniciales de los botones */
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botonVerde {
+    background-color: green;
+    color: white;
+}
+
+#botonRojo {
+    background-color: red;
+    color: white;
+}
+
+#botonAzul {
+    background-color: blue;
+    color: white;
+}
